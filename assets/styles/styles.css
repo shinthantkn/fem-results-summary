@@ -155,9 +155,11 @@ body {
 .summary-memory .summary-name {
   color: var(--orange-yellow);
 }
+
 .summary-verbal .summary-name {
   color: var(--green-teal);
 }
+
 .summary-visual .summary-name {
   color: var(--cobalt-blue);
 }
@@ -197,6 +199,27 @@ body {
 .btn:hover {
   color: var(--white);
   z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .result-card,
+  .summary-card {
+    width: 100%;
+    height: 50%;
+  }
+
+  .result-card {
+    border-radius: 0 0 25px 25px;
+  }
+
+  .summary-detail,
+  .btn {
+    width: 315px;
+  }
 }
 
 :root {
