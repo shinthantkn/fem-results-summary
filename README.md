@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/results-summary-card-component-using-flexbox-Cz9l-iwXfy)
 - [Live Site](https://stk-results-summary.netlify.app)
 
 ## My process
